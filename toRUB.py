@@ -42,6 +42,7 @@ def checkAmount(amount):
 
 
 def main():
+    print("HHH")
     currency = input("Enter the name of the currency you want to convert from (USD, EUR, BYN, KZT): ")
     if not checkCurrency(currency):
         print("!Wrong format!")
